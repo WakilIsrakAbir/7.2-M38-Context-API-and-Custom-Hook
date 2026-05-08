@@ -1,6 +1,9 @@
 import './App.css'
 import ControlledField from './Components/ControllledField/ControlledField'
+import FamilyTree from './Components/FamilyTree/FamilyTree'
 import FromAction from './Components/FormAction/FromAction'
+import HookForm from './Components/HookForm/HookForm'
+import ProductManagement from './Components/ProductManagement/ProductManagement'
 import SimpleForm from './Components/SimpleForm/SimpleForm'
 import UncontrolledField from './Components/UncontrolledField/UncontrolledField'
 
@@ -8,11 +11,16 @@ function App() {
 
   return (
     <>
-      <h1>Explore React Form</h1>
+      {/* <h1>Explore React Form</h1>
       <SimpleForm></SimpleForm>
       <FromAction></FromAction>
       <ControlledField></ControlledField>
       <UncontrolledField></UncontrolledField>
+      <HookForm></HookForm> */}
+
+      {/* <ProductManagement></ProductManagement> */}
+
+      <FamilyTree></FamilyTree>
     </>
   )
 }
